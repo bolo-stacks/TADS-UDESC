@@ -18,4 +18,3 @@ while exec1:
     if op == 'n':
         exec1 = False
         exit('Obrigado por usar nosso programa.')
-

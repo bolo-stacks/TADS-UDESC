@@ -2,6 +2,7 @@
 Aprendendo loops
 """
 
+
 # teste de commit Github
 
 # loop 1

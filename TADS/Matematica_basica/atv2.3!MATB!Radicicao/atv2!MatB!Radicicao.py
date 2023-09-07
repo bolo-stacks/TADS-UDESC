@@ -15,7 +15,7 @@ potencia = 1
 count = 1
 
 while count <= expoente:
-    potencia *= base
-    count += 1
+    potencia *= base  # Potencia = base * base * base .....
+    count += 1  # cont = count + 1
 
 print(base, "^", expoente, "=", potencia)

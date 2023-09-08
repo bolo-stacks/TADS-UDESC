@@ -1,19 +1,33 @@
 """
 Fazer o mmc dos números do usuário utilizando a biblioteca 
 numpy e os atributos lcm (mmc) e reduce.
+Entre com os números separados por espaço e tecle enter ao final.
 """
-
+# import da minha versão
 import numpy as np
 
-user_mmc = 1
-mmc_list = []
-print("Entre com os valores para calcular o mmc,\nquando não quiser mais incluir valores entre com zero (0).")
+# Versão da IA do bing
 
-while user_mmc != 0:
-    user_mmc = int(input('\nEntre com o valor para fazer\no mmc (mínimo múltiplo comum):'))
-    mmc_list.append(user_mmc)
+# import do bing
+from math import gcd
+from functools import reduce
 
-mmc_list = str(mmc_list)
-print(eval(mmc_list))
-# a = np.array(mmc_list)
-# print(np.lcm([a]))
+
+def lcm(a, b):
+    gc = gcd(a, b)  # mdc de dois números
+    lc = (a * b) // gc
+    return lc
+
+
+numbers = list(map(int, input().split()))  # lê os números separados por espaço e coloca em uma lista
+result = reduce(lcm, numbers)  # aplica a função lcm para todos os números da lista
+print(result)  # imprime o resultado
+
+##################
+# Versão melhorada
+
+# import numpy as np
+
+numbers = list(map(int, input().split()))  # lê os números separados por espaço e coloca em uma lista
+result = np.lcm.reduce(numbers)  # aplica a função lcm para todos os números da lista
+print(result)  # imprime o resultado

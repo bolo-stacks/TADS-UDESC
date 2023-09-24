@@ -70,3 +70,7 @@ copia3 = num[1::2] # Impares
 print(copia3)
 copia4 = num[:] # Todos
 print(copia4)
+
+
+
+

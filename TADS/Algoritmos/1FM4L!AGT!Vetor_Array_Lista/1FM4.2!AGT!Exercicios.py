@@ -16,7 +16,7 @@ deles são positivos.
 c) Ler dois vetores de 5 posições e calcular
 o produto escalar entre ambos.
 
-d) Ler nome e notax de uma turma de até 30 alunos.
+d) Ler nome e nota de uma turma de até 30 alunos.
 Depois exiba uma lista com o nome dos alunos
 com nota maior que 7.
 

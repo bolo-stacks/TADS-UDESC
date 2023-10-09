@@ -5,5 +5,5 @@ for i in range(5):
    valor = valor * lista[i]
 
 
-# Output
+# Output 2
 print(valor)

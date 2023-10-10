@@ -40,23 +40,23 @@ lista2 = str4.split(' ', 2) # Separa até o Index 2
 print(lista2)
 
 # Relembrar list
-# len min max sum
+# len min max sum (comprimento, menor item, maior item, soma)
 # lista.append
-# lista.count
-# lista.insert
+# lista.count (conta as ocorrências de um item)
+# lista.insert (pos, item)
 # lista.pop remove o último elemento da list
-# lista.remove
+# lista.remove (remove a primeira ocorrência de um item)
 # lista.reverse
-# lista.sort ordena 
+# lista.sort ordena crescente
 
-# Copia de lista
+# Copia de lista (mesma posição de memória)
 animais = ['vaca', 'cavalo', 'cachorro']
 b = animais
 b.append('porco')
 print(animais)
 print(b)
 
-# Cópia parcial
+# Cópia parcial (endereço de memória diferente)
 c = animais[:2] # Copiando somente os 2 primeiros
 print(c)
 
@@ -71,6 +71,11 @@ print(copia3)
 copia4 = num[:] # Todos
 print(copia4)
 
-
+# Copia de lista (lista inteira, posição de memória diferente)
+animais = ['vaca', 'cavalo', 'cachorro']
+b = animais[:] # Copia do início ao fim mas com endereço de memória diferente
+b.append('porco')
+print(animais)
+print(b)
 
 

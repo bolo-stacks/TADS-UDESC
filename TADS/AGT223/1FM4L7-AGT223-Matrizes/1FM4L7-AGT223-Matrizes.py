@@ -67,3 +67,28 @@ Lista de listas
 #     for j in range(3):
 #         matriz[i][j]=i+j
 # print(matriz[i])
+
+'''
+Exercício 1:
+
+Faça um programa que preencha uma matriz de 20x3 com as notas de vinte alunos em três provas (complete com valores aleatórios de 0 a 10 para evitar a leitura de muitos valores).
+O programa deve mostrar em que posição aparecem as menores notas para: prova 1, prova 2 e prova 3. Exiba a posição e a nota.
+'''
+
+
+'''
+Exercício 2:
+
+Escreva um algoritmo que gera uma matriz 7x7 preenchida com valores aleatórios (randômicos) de 0 a 100. Escreva a matriz na tela e os seguintes valores:
+- Posição (linha e coluna) onde está o maior valor.
+- Quantas vezes o maior valor aparece (Inclui repetições).
+- Posição onde está o menor valor.
+- Quantas vezes o menor valor aparece.
+'''
+
+
+# Exercício teste do final do Modulo 4.7 Matriz
+
+# matriz = [[1 if i==j else 0 for j in range(5)] for i in range(5)]
+# for i in range(5):
+#    print(matriz[i])

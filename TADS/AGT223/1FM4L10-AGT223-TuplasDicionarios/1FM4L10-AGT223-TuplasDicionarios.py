@@ -4,7 +4,7 @@ A agenda deve ser capaz de:
 Incluir registro (Lista com mais de um telefone para cada nome)
 Excluir registro
 Buscar número a partir do nome
-Listar todos
+Listar todos os registros
 '''
 
 

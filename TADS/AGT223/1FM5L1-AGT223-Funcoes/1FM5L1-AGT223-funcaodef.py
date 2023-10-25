@@ -35,15 +35,15 @@
 # Função de soma:
 #
 
-# def soma(x, y):
-#     s = x + y
-#     return s
+def soma(x, y):
+    s = x + y
+    return s
 
 
-# x1 = int(input('Entre com o primeiro número para calcular a soma: '))
-# y1 = int(input('Entre com o segundo número para calcular a soma: '))
-# x = soma(x1, y1)
-# print(x)
+x1 = int(input('Entre com o primeiro número para calcular a soma: '))
+y1 = int(input('Entre com o segundo número para calcular a soma: '))
+x = soma(x1, y1)
+print(x)
 
 #
 # versão melhorada de soma:

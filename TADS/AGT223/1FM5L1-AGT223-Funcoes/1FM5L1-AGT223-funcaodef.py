@@ -84,9 +84,11 @@
 # imprime_soma(z, k)
 
 '''
-Passagem de parâmetros por valor são cópias do valor original da variável, técnica utilizada em python. Isso não é definido explicitamente em python.
+Memória:
 
-Passagem de parâmetros por referência permite que altere o conteúdo das variáveis passadas como parâmetro. Este formato é utilizado em outras linguagens de programação.
+Passagem de parâmetros por valor são alterações no valor original da variável, técnica utilizada em python. Isso não é definido explicitamente em python.
+
+Passagem de parâmetros por referência permite que altere o conteúdo das variáveis passadas como parâmetro. Este formato é utilizado em outras linguagens de programação. Alterar a referência altera a variável principal.
 
 Quando criamos um valor primitivo (int, float, bool), o nome da variável define o local na memória do conteúdo.
 
@@ -99,7 +101,12 @@ Para fazermos a troca de parâmetros podemos encapsular o valor primitivo em uma
 Ex.:
 '''
 
+# Passagem de parâmetros por -referência-
+# Altera a referência para alterar a variável principal
+# Troca por parâmetros em python
 # Passando uma lista para uma função.
+# A variável principal na memória é alterada através de referências que estão em outros endereços na memória.
+# listas, conjuntos, strings etc são passagens por referência.
 
 # def altera_lista(lista):
 #     lista[0] = 6
@@ -107,4 +114,15 @@ Ex.:
 
 # lista1 = [1, 2, 3, 4, 5]
 # altera_lista(lista1)
+# print(lista1)
+
+
+# Passagem de parâmetros por valor em python -cópia-
+# alterar a -cópia- da variável também altera a variável principal
+# A cópia refere-se diretamente ao mesmo endereço que o principal na memória.
+# int, bool, float etc são passagens por valor.
+
+# lista1 = [1, 2, 3]
+# lista2 = lista1
+# lista2[1] = 4
 # print(lista1)

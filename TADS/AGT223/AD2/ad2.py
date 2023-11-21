@@ -1,5 +1,6 @@
 #AD2 Algoritmos
 
+-----------------------------------------------------------------
 
 #Ex.1
 def corrigir_espacos(texto):
@@ -12,12 +13,20 @@ entrada = input()
 saida = corrigir_espacos(entrada)
 print(saida)
 
+
+-----------------------------------------------------------------
+
+
 #Ex.2
 def converterTempo(N):
   horas = N // 3600
   minutos = (N % 3600) // 60
   segundos = (N % 3600) % 60
   return [horas, minutos, segundos]
+
+
+
+-----------------------------------------------------------------
 
 
 #Ex.3
@@ -43,6 +52,10 @@ for _ in range(num_casos_teste):
   sobrenome = input()
   resultado = verifica_dificuldade(sobrenome)
   print(f"{sobrenome} {resultado}")
+
+
+-----------------------------------------------------------------
+
 
 #eX.4
 def cifra_de_cesar(n, casos):
@@ -75,6 +88,10 @@ for i in range(n):
 resultados = cifra_de_cesar(n, casos)
 for resultado in resultados:
   print(resultado)
+
+
+-----------------------------------------------------------------
+
 
 #Ex.5
 def main():

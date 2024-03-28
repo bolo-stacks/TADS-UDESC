@@ -1,0 +1,9 @@
+/*
+Observe o código do programa Principal e as assinaturas dos métodos da classe Triangulo, sem modificá-los. 
+A classe Triangulo é responsável por calcular a área de um triângulo a partir dos dados da base e altura.  
+O cálculo da área utiliza a fórmula (base * altura)/2. Complete a classe triângulo com os métodos gets and sets 
+de acordo com a interface ITriangulo pré-definida. O programa Principal já realiza a leitura dos casos de 
+testes para validar a implementação dos métodos da classe e realiza a saída dos dados no formato solicitado. 
+Lembre-se avaliar o programa ao final para contabilização da atividade.
+*/
+

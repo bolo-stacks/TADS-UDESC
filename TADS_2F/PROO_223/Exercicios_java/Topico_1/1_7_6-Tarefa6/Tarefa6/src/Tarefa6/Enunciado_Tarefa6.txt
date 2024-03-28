@@ -1,0 +1,8 @@
+
+/*
+Observe o código do programa Principal e a sua execução. O programa está apresentando erros no momento de inserir e recuperar os dados do objeto. 
+A classe Data já possui os get´s e set´s default para os atributos dia, mes e ano e um método getBissexto(). Modifique os métodos da classe Data 
+para eles tenham a visibilidade correta para que o programa Principal possa ser executado corretamente e mostre os resultados esperados. 
+O programa Principal já realiza a leitura dos casos de testes para validar a classe e realiza a saída dos dados no formato solicitado.  
+Lembre-se avaliar o programa ao final para contabilização da atividade.
+*/

@@ -5,9 +5,19 @@ public class Funcionario implements IFuncionario{
     private String nome;
     
     //Construtor sem parâmetros   
-    
+
+    public Funcionario() {
+        this.matricula = 0;
+        this.nome = "";
+    }
+  
     //Construtor com parâmetros
-    
+
+    public Funcionario(int matricula, String nome) {
+        this.matricula = matricula;
+        this.nome = nome;
+    }
+        
     //set’s
     public void setMatricula(int matricula){
       this.matricula = matricula;
